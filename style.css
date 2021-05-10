@@ -1,0 +1,330 @@
+/* nav : #1a242f;
+button : #0f79af;
+footer : #222222; */
+
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+body{
+    font-family: "Amazon Ember"; src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+.navbar{
+    height: 7.3rem;
+    width: 100vw;
+    background: #1a242f ;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+    position: fixed;
+}
+
+.logo{
+    width: 12rem;
+    height: 4rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#plan{
+    background: none;
+    width: 5rem;
+    height: 2.5rem;
+    color: lavenderblush;
+    border: none;
+    margin: 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-left: 0;
+    font-weight: 100;
+    margin-top: 6px;
+}
+
+.navbar-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.fas{
+    font-size: 1.9rem;
+    padding-right: 0;
+    color: white;
+}
+
+
+select option{
+    margin:40px;
+    background: #1a242f;
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 61rem;
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('list.jpg');
+    background-position: top right ;
+    background-repeat: no-repeat;
+}
+
+.first h1{
+    color: white;
+    font-size: 4rem;
+    width: 40%;
+    padding-left: 50px;
+    margin: 20px ;
+}
+.first p{
+    color: white;
+    font-size: 2.2rem;
+    padding-left: 50px;
+    width:40%;
+    margin: 18px;
+}
+
+.first a{
+    text-decoration: none;
+    color: white;
+    background: #0f79af;
+    width: 24rem;
+    height: 5rem;
+    text-align: center;
+    padding-top:15px;
+    margin-left: 70px;
+    font-size: 1.5rem;
+    margin-top: 18px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 61rem;
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('boy-girl.jpg');
+    background-position: left;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.second h1{
+    color: white;
+    font-size: 4rem;
+    width: 30%;
+    margin-left:58%;
+    margin-top: 2rem;
+}
+.second p{
+    color: white;
+    font-size: 2.2rem;
+    width:40%;
+    margin-left: 58%;
+    margin-top:2rem;
+}
+
+.second a{
+    text-decoration: none;
+    color: white;
+    background: #0f79af;
+    width: 24rem;
+    height: 5rem;
+    text-align: center;
+    padding-top:15px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 58%;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 61rem;
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('cartoon_boy-girl.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.third h1{
+    color: white;
+    font-size: 4rem;
+    width: 40%;
+    padding-left: 50px;
+    margin: 20px ;
+}
+.third p{
+    color: white;
+    font-size: 2.2rem;
+    padding-left: 50px;
+    width:40%;
+    margin: 18px;
+}
+
+.third a{
+    text-decoration: none;
+    color: white;
+    background: #0f79af;
+    width: 24rem;
+    height: 5rem;
+    text-align: center;
+    padding-top:15px;
+    margin-left: 70px;
+    font-size: 1.5rem;
+    margin-top: 18px;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 61rem;
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('rempte.jpg');
+    background-position: left;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.fourth h1{
+    color: white;
+    font-size: 4rem;
+    width: 30%;
+    margin-left:58%;
+    margin-top: 2rem;
+}
+.fourth p{
+    color: white;
+    font-size: 2.2rem;
+    width:40%;
+    margin-left: 58%;
+    margin-top:2rem;
+}
+
+.fourth a{
+    text-decoration: none;
+    color: white;
+    background: #0f79af;
+    width: 24rem;
+    height: 5rem;
+    text-align: center;
+    padding-top:15px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 58%;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.about{
+    width:32vw;
+    text-align: center;
+}
+
+.about-wrapper .about img{
+   width: 60%;
+}
+.about-wrapper .about p{
+    font-size: 2rem;
+    font-weight: 10;
+    margin: 2rem 2rem;
+}
+.about-wrapper .about h2{
+    font-size: 3.5rem;
+    margin: 2rem 2rem;
+    text-align: center;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 61rem;
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('cartoon.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.fifth h1{
+    color: white;
+    font-size: 4rem;
+    width: 40%;
+    padding-left: 50px;
+    margin: 20px ;
+}
+.fifth p{
+    color: white;
+    font-size: 2.2rem;
+    padding-left: 50px;
+    width:40%;
+    margin: 18px;
+}
+
+.fifth a{
+    text-decoration: none;
+    color: white;
+    background: #0f79af;
+    width: 24rem;
+    height: 5rem;
+    text-align: center;
+    padding-top:15px;
+    margin-left: 70px;
+    font-size: 1.5rem;
+    margin-top: 18px;
+}
+
+.footer{
+    height: 13rem;
+    background: #222;
+    font-size: 1.5rem;
+}
+
+.footer .img-logo{
+    display: block;
+    padding-top: 2rem;
+    text-align: center;
+    height: 50%;
+}
+.footer .img-logo img{ 
+  height: 3rem;
+  width: 11rem;
+}
+
+.footer .footer-line{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-line a{
+    padding: 0 1rem;
+    color: #0f79af;
+    text-decoration: none;
+}
+.footer .footer-line p{
+    padding: 0 1rem;
+    color: #b1b1b1;
+}
+
